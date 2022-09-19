@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+  height: 80px;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cabecalho h1 {
+  color: rgb(240, 240, 240);
+}
+
+.cabecalho img {
+  max-width: 100%;
+  width: 12vw;
+}
+
+.cont {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #eee;
+  padding: 30px;
+}
+
+.temp {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: repeat(minmax(550px, 2fr));
+  gap: 20px;
+}
+
+.lista {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+  transition: transform 100ms ease-in-out;
+}
+
+.rodape {
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+  height: 200px;
+}
+
+.rodape .es {
+  color: rgb(240, 240, 240);
+}
