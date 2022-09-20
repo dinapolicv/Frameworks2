@@ -38,6 +38,7 @@ class App extends Component{
             busca={this.state.busca}
             buscaODA={this.buscaODA}
           />
+          <div className='inv'></div>
         </div>
         <p>{odas.length} odas</p>
         <div className='cont'>
