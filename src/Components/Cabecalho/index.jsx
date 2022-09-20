@@ -1,4 +1,4 @@
-export const Cabecalho (){
+export function Cabecalho(){
     return(
         <div className="cabecalho">
             <img src="http://www.bocaweb.com.br/images/logobranco.png" alt="" />

@@ -6,15 +6,17 @@
 .top {
   background-color: rgb(20, 20, 20);
   width: 100%;
-  height: 80px;
+  height: 100px;
   display: flex; 
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
 .cabecalho {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -28,7 +30,7 @@
 }
 
 .cont {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   min-height: 100vh;
   background-color: #eee;
@@ -38,14 +40,18 @@
 .temp {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-template-rows: repeat(minmax(550px, 2fr));
   gap: 20px;
 }
 
 .lista {
+  border-radius: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
   transition: transform 100ms ease-in-out;
+}
+
+.lista .desc {
+  font-size: small;
 }
 
 .rodape {
