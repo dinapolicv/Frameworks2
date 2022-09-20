@@ -36,7 +36,8 @@ body {
 }
 
 .cabecalho h1 {
-  color: rgb(240, 240, 240);
+  font-size: xx-large;
+  color: rgba(243,108,16,255);
 }
 
 .cabecalho img {
